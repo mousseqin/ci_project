@@ -18,6 +18,7 @@
 					<li><a>Email:&nbsp;&nbsp;&nbsp;qinchao_mousse@icloud.com</a></li>
 					<li><a>Alipay:&nbsp;&nbsp;qinchao_mousse@icloud.com</a></li>
 					<li><a>WeChat:&nbsp;&nbsp;woaiqinchao</a></li>
+					<li><a>QQ:&nbsp;&nbsp;&nbsp;&nbsp;756088305</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 ftr-grd">
