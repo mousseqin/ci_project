@@ -55,7 +55,11 @@
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 define('FACEBOOK_HOME', 'https://www.facebook.com/profile.php?id=100009559232858');
 define('TWITTER_HOME', 'https://twitter.com/Mousse1988');
-
+define('MY_ENGLISH_NAME', 'Mousse');
+define('MY_EMAIL', 'qinchao_mousse@icloud.com');
+define('MY_WECHAT', 'woaiqinchao');
+define('MYQQ', '756088305');
+define('MYGMAIL', 'chaoqin06@gmail.com');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

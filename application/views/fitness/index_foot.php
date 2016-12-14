@@ -14,11 +14,11 @@
 			<div class="col-md-3 ftr-grd">
 				<h3>联系方式</h3>
 				<ul class="ftr-links">
-					<li><a>Name:&nbsp;&nbsp;&nbsp;&nbsp;Mousse</a></li>
-					<li><a>Email:&nbsp;&nbsp;&nbsp;qinchao_mousse@icloud.com</a></li>
-					<li><a>Alipay:&nbsp;&nbsp;qinchao_mousse@icloud.com</a></li>
-					<li><a>WeChat:&nbsp;&nbsp;woaiqinchao</a></li>
-					<li><a>QQ:&nbsp;&nbsp;&nbsp;&nbsp;756088305</a></li>
+					<li><a>Name:&nbsp;&nbsp;&nbsp;&nbsp;<?PHP echo MY_ENGLISH_NAME; ?></a></li>
+					<li><a>Email:&nbsp;&nbsp;&nbsp;<?PHP echo MY_EMAIL; ?></a></li>
+					<li><a>Alipay:&nbsp;&nbsp;<?PHP echo MY_EMAIL; ?></a></li>
+					<li><a>WeChat:&nbsp;&nbsp;<?PHP echo MY_WECHAT; ?></a></li>
+					<li><a>QQ:&nbsp;&nbsp;&nbsp;&nbsp;<?PHP echo MYQQ; ?></a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 ftr-grd">

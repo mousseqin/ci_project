@@ -41,9 +41,9 @@
             <div class="header-right">
                 <div class="social-icons">
                     <ul>
-                        <li><a href="<?PHP echo FACEBOOK_HOME; ?>" target="_blank"><span class="fa"> </span></a></li>
-                        <li><a href="<?PHP echo TWITTER_HOME; ?>" target="_blank"><span class="tw"> </span></a></li>
-<!--                        <li><a href="#"><span class="g"> </span></a></li>-->
+                        <li><a href="<?php echo FACEBOOK_HOME; ?>" target="_blank"><span class="fa"> </span></a></li>
+                        <li><a href="<?php echo TWITTER_HOME; ?>" target="_blank"><span class="tw"> </span></a></li>
+                        <li><a title="<?php echo MYGMAIL; ?>"><span class="g"> </span></a></li>
 <!--                        <li><a href="#"><span class="in"> </span></a></li>-->
 <!--                        <li><a href="#"><span class="pin"> </span></a></li>-->
 <!--                        <li><a href="#"><span class="you"> </span></a></li>-->
@@ -377,7 +377,7 @@
 <div class="copyright">
     <div class="container">
         <div class="copy-main">
-            <p>Asis/Shanghai &copy; 2016.Private name [mousse].</a>
+            <p>Asia/Shanghai &copy; 2016.Private Web From Mousse(qinchao).</a>
             </p>
         </div>
         <script type="text/javascript">
