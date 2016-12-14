@@ -25,9 +25,9 @@
                 <span class="menu"> <img src="/public/images/icon.png" alt=""/></span>
                 <ul class="res">
                     <li><a href="index.php/fitness" class="active">首页</a></li>
+                    <li><a class="scroll" href="#about">欢迎</a></li>
                     <li><a class="scroll" href="#services">服务</a></li>
                     <li><a class="scroll" href="#gallery">画廊</a></li>
-                    <li><a class="scroll" href="#about">关于我们</a></li>
                     <li><a class="scroll" href="#contact">联系我们</a></li>
                 </ul>
                 <!--script-->
