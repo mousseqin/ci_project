@@ -1,35 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Home</title>
-    <link href="/public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/public/js/jquery-1.11.0.min.js"></script>
-    <!-- Custom Theme files -->
-    <link href="/public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <!-- Custom Theme files -->
-    <meta name="viewportA" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Wandering Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        } </script>
-    <!-- start-smoth-scrolling -->
-    <script type="text/javascript" src="/public/js/move-top.js"></script>
-    <script type="text/javascript" src="/public/js/easing.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-            });
-        });
-    </script>
-    <!-- //end-smoth-scrolling -->
+    <title>个人网站 | 还在施工中 | 兴趣爱好 </title>
+    <?php include_once 'index_head.html'; ?>
 </head>
 <body>
 <!--header start here-->
@@ -40,7 +13,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="header-main">
             <div class="logo">
-                <h1><a href="index.html">Wandering</a></h1>
+                <h1><a href="index.php/fitness">Wandering</a></h1>
             </div>
         </div>
     </div>
@@ -51,12 +24,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="top-nav">
                 <span class="menu"> <img src="/public/images/icon.png" alt=""/></span>
                 <ul class="res">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a class="scroll" href="#about">About Us</a></li>
-                    <li><a class="scroll" href="#services">Services</a></li>
-                    <li><a class="scroll" href="#gallery">Gallery</a></li>
-                    <li><a class="scroll" href="#contact">Contact</a></li>
-
+                    <li><a href="index.php/fitness" class="active">首页</a></li>
+                    <li><a class="scroll" href="#services">服务</a></li>
+                    <li><a class="scroll" href="#gallery">画廊</a></li>
+                    <li><a class="scroll" href="#about">关于我们</a></li>
+                    <li><a class="scroll" href="#contact">联系我们</a></li>
                 </ul>
                 <!--script-->
                 <script>
@@ -69,26 +41,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="header-right">
                 <div class="social-icons">
                     <ul>
-                        <li><a href="#"><span class="fa"> </span></a></li>
-                        <li><a href="#"><span class="tw"> </span></a></li>
-                        <li><a href="#"><span class="g"> </span></a></li>
-                        <li><a href="#"><span class="in"> </span></a></li>
-                        <li><a href="#"><span class="pin"> </span></a></li>
-                        <li><a href="#"><span class="you"> </span></a></li>
+                        <li><a href="<?PHP echo FACEBOOK_HOME; ?>" target="_blank"><span class="fa"> </span></a></li>
+                        <li><a href="<?PHP echo TWITTER_HOME; ?>" target="_blank"><span class="tw"> </span></a></li>
+<!--                        <li><a href="#"><span class="g"> </span></a></li>-->
+<!--                        <li><a href="#"><span class="in"> </span></a></li>-->
+<!--                        <li><a href="#"><span class="pin"> </span></a></li>-->
+<!--                        <li><a href="#"><span class="you"> </span></a></li>-->
                     </ul>
                 </div>
-                <div class="search-in">
-                    <div class="search">
-                        <form>
-                            <input type="text" class="text">
-                            <input type="submit" value="SEARCH">
-                        </form>
-                        <div class="close-in"><img src="/public/images/s-close.png" alt=""/></div>
-                    </div>
-                    <div class="right">
-                        <button></button>
-                    </div>
-                </div>
+<!--                <div class="search-in">-->
+<!--                    <div class="search">-->
+<!--                        <form>-->
+<!--                            <input type="text" class="text">-->
+<!--                            <input type="submit" value="SEARCH">-->
+<!--                        </form>-->
+<!--                        <div class="close-in"><img src="/public/images/s-close.png" alt=""/></div>-->
+<!--                    </div>-->
+<!--                    <div class="right">-->
+<!--                        <button></button>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <script type="text/javascript">
                     $('.search').hide();
                     $('button').click(function () {
@@ -396,73 +368,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!--contact end here-->
-<!--footer start here-->
-<div class="footer">
-    <div class="container">
-        <div class="footer-main">
-            <div class="col-md-3 ftr-grd">
-                <h3>Information</h3>
-                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-                    eligendi optio.</p>
-                <ul class="ftr-icons">
-                    <li><a href="#"><span class="cr-fa"> </span></a></li>
-                    <li><a href="#"><span class="cr-tw"> </span></a></li>
-                    <li><a href="#"><span class="cr-in"> </span></a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 ftr-grd">
-                <h3>Site Link</h3>
-                <ul class="ftr-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 ftr-grd">
-                <h3>Categories</h3>
-                <ul class="ftr-categ">
-                    <li><a href="#">Featured</a></li>
-                    <li><a href="#">General</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">literature</a></li>
-                    <li><a href="#">Videos</a></li>
-                </ul>
 
-            </div>
-            <div class="col-md-3 ftr-grd">
-                <h3>Recent project</h3>
-                <div class="ftr-gd4-img">
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f1.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f2.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f3.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ftr-gd4-img">
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f4.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f5.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/public/images/f6.jpg" alt=""
-                                                                               class="img-responsive"></a></div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
+<!--footer start here-->
+<?php include_once "index_foot.php"; ?>
 <!--footer end here-->
+
 <!--copyright start here-->
 <div class="copyright">
     <div class="container">
         <div class="copy-main">
-            <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank"
-                                                                         href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+            <p>Asis/Shanghai &copy; 2016.Private name [mousse].</a>
             </p>
         </div>
         <script type="text/javascript">
