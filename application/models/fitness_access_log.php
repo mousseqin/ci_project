@@ -5,7 +5,7 @@
  * Date: 2016/12/16
  * Time: 下午2:31
  */
-class Access_log_model extends CI_Model {
+class Fitness_access_log extends CI_Model {
 	
 	private $table;
 	
