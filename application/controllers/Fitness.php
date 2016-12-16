@@ -11,6 +11,8 @@ class Fitness extends CI_Controller
 	public function __construct ()
 	{
 		parent::__construct ();
+		$this->load->model('access_log_model');
+		$this->access_log_model->add_log(['host'=>$this->getIp()]);
 	}
 	
 	public function _remap ( $method , $params = [] )

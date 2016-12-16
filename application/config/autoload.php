@@ -133,3 +133,8 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array();
+
+/*
+ * “自动连接” 特性将在每一个页面加载时自动实例化数据库类。要启用“自动连接”， 可在 application/config/autoload.php 中的 library 数组里添加 database:
+ */
+$autoload['libraries'] = array('database');
