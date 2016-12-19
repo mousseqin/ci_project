@@ -1,14 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>个人网站 | 还在施工中 | 兴趣爱好 </title>
-    <?php include_once 'index_head.html'; ?>
+<title>个人网站 | 还在施工中 | 兴趣爱好 </title>
+<?php include_once 'index_head.html'; ?>
 </head>
 <body>
 <!--header start here-->
-<div class="header-strip">
-
-</div>
+<div class="header-strip"></div>
 <div class="header">
     <div class="container">
         <div class="header-main">
@@ -340,33 +338,10 @@
         $('#nivo-lightbox-demo a').nivoLightbox({effect: 'fade'});
     });
 </script>
-
-
 <!--gallery end here-->
+
 <!--contaact start here-->
-<div class="contact" id="contact">
-    <div class="container">
-        <div class="contact-main">
-            <div class="contact-top">
-                <h3>Contact</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam architecto beatae.</p>
-            </div>
-            <div class="contact-bottom">
-                <div class="col-md-6 contact-left">
-                    <input type="text" placeholder="Name" required="">
-                    <input type="text" placeholder="Email" required="">
-                    <input type="text" placeholder="Phone" required="">
-                </div>
-                <div class="col-md-6 contact-right">
-                    <textarea placeholder="Message" required=""></textarea>
-                    <input type="submit" value="Submit">
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include_once "index_contact.php"; ?>
 <!--contact end here-->
 
 <!--footer start here-->

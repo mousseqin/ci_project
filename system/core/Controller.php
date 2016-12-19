@@ -101,6 +101,9 @@ class CI_Controller {
         echo $output;
     }
 	
+	/**
+	 * get user ip
+	 */
 	public function getIp()
 	{
 		$unknown = 'unknown';
@@ -110,5 +113,13 @@ class CI_Controller {
 			$ip = $_SERVER[ 'REMOTE_ADDR' ];
 		}
 		return $ip;
+	}
+	
+	/**
+	 * output json
+	 */
+	protected function output_json($obj){
+		echo json_encode($obj);
+		exit;
 	}
 }
