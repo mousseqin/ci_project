@@ -22,7 +22,7 @@ class Fitness_access_log extends CI_Model {
 	
 	// 新增日志记录
 	public function add_log($data){
-		if(empty($data)){
+		if(empty($data) || $data['host'] == '::1' || $data['host'] == '127.0.0.1' || $data['host'] == 'localhost'){
 			return false;
 		}
 		$data['ctime'] = date('Y-m-d H:i:s');
